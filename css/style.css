@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+body{
+    background-image: url("../img/background.png"),url("../img/shap.png");
+    background-position: right 0 top 130px,left 0px top 520px;
+    background-repeat: no-repeat;
+    background-color: #F8FAF8;
+    font-family: 'Nunito Sans', sans-serif;
+}
+header{
+    background-color:#F8FAF8;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+}
+.travelers{
+    width: 30%;
+    margin:0;
+    margin-top:48px;
+    margin-left:120px;
+}
+.link{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    color: #BC436A;
+    text-decoration:none;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+
+}
+ul{
+    display: flex;
+    margin: 0;
+}
+.links{
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 49px;
+}
+.item{
+    font-weight: 400;
+    font-size: 16px;
+    color: #776677;
+    text-decoration:none;
+}
+.home{
+    font-weight: 800;
+    font-size: 16px;
+    color: #BC436A;
+    text-decoration:none;
+}
+.head{
+    background-color: #386E41;
+    padding: 8px;
+    font-weight:400;
+    font-size:16px;
+    color: white;
+    margin-top: 40px;
+    margin-right: 120px;
+    border: 1px solid rgba(56, 110, 65, 1);
+    border-radius: 4px;
+}
+.head:hover{
+    background-color: #BC436A;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: 1px solid rgba(56, 110, 65, 1);
+    text-decoration: underline;
+
+}
+.maintext{
+    width: 40%;
+    margin-top: 198px;
+    margin-left: 120px;
+    margin-bottom: 267px;
+    text-align: left;
+}
+h1{
+    margin-bottom: 23px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #333333;
+}
+span{
+    color: #BC436A;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color:#7A7A7A;
+}
+.will{
+    margin-left:120px ;
+    font-size: 18px;
+    color: #767676;
+    text-decoration: none;
+
+}
+.will::after{
+    content: url("../img/strela.png");
+    position: absolute;
+    margin-left: 33px;
+}
+.green{
+    background-color: #386E41;
+    display: flex;
+    width: 80%;
+    border-radius: 8px;
+    margin: 49px auto 74px 120px;
+    justify-content: space-around;
+
+}
+.input{
+    width: 20%;
+    background-image: url(../img/streladoun.png);
+    background-repeat: no-repeat;
+    background-position: right 10px top 5px;
+    background-color: #386E41;
+    color: white;
+    margin: 34px auto;
+    border: none;
+    border-bottom: 1px solid white ;
+    outline: 0 solid transparent;
+}
+.input::placeholder{
+    color: white;
+}
+.search {
+    background-color: #BC436A;
+    padding: 8px 21px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 38px;
+    margin-right:33px;
+    margin-bottom:29px;
+}
+.search:hover{
+    background-color: #df89a4;
+    color: #BC436A;
+    border: 1px solid #BC436A ;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    margin-bottom: 73px;
+}
+.see{
+    font-weight: 400;
+    font-size: 18px;
+    color: #767676;
+    text-decoration: none;
+}
+footer::after{
+    content: url("../img/double-strela.png");
+    position: relative;
+    right: 85px;
+    top: 32px;
+}
+footer>a:hover{
+    color: #BC436A;
+}
